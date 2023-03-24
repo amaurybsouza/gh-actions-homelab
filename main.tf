@@ -10,8 +10,8 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-1"
-  shared_credentials_file = "/home/amaury/.aws"
-  profile                 = "terraformlabs"
+  access_key = "AKIA2ITGRIZ5YPQUFKTO"
+  secret_key = "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"
 }
 
 data "aws_ami" "ubuntu" {
